@@ -1,4 +1,4 @@
-Steps to execute the program
+**Steps to execute the program**
 
 1-go to the location where (Pyls.py & project.toml is available)
 **execute** pip install .
