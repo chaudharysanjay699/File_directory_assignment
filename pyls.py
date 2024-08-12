@@ -20,7 +20,6 @@ def parse_directory(directory: Dict[str, Any], show_hidden: bool = False, long_f
         contents = [item for item in contents if not item.get("name","").startswith(".")]
     
     if sort_by_time:
-        import pdb;pdb.set_trace()
         contents.sort(key=lambda x: x.get("time_modified",""))
     
     if reverse:
